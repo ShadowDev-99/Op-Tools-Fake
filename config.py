@@ -27,9 +27,7 @@ class Config:
     SHODAN_API_KEY = os.environ.get("SHODAN_KEY", "YOUR_KEY_HERE")
     VT_API_KEY = os.environ.get("VT_API", "YOUR_KEY_HERE")
     JWT_ALGORITHM = "HS256"
-    
-    secret_key = "U0VDUkVUX1BlUkFTRQ=="
-    
+    # secret_key = "U0VDUkVUX1BlUkFTRQ=="
     # Database Configurations (Local Dev)
     DB_HOST = os.environ.get("DB_HOST", "127.0.0.1")
     DB_PORT = os.environ.get("DB_PORT", 5432)
